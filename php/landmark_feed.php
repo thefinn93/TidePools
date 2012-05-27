@@ -29,7 +29,7 @@
 	$counter = 1;
 	
 
-	echo '<div style="width:351px; height:80px;"> <hr style="border:3px solid #df1c53;" /><img src="/images/announcement.png" style="float:left; margin-left: 8;" /> <div id="innertext" style="width:299px; height:75; float:left; margin-left: 7; margin-top:-5;"><p2>Announcement</p2> </br> <p style="margin-top:2px; " > This version of Tidepools Social WiFi in Red Hook, Brooklyn is hosted on the Internet, while the actual map is hosted locally, on a community server. </p></div> <hr></div>';
+	echo '<div style="width:351px; height:80px;"> <hr style="border:3px solid #df1c53;" /><img src="images/announcement.png" style="float:left; margin-left: 8;" /> <div id="innertext" style="width:299px; height:75; float:left; margin-left: 7; margin-top:-5;"><p2>Announcement</p2> </br> <p style="margin-top:2px; " > This version of Tidepools Social WiFi in Red Hook, Brooklyn is hosted on the Internet, while the actual map is hosted locally, on a community server. </p></div> <hr></div>';
 		
 
 	foreach($landmarks as $i){
@@ -58,7 +58,7 @@
 				
 					echo '<div style="cursor:pointer; margin-left:7px;" onclick="landmarkWindow('.$idVal.')">';
 					
-					echo '<img src="/images/'.$c['stats']['avatar'].'"style="float:left; max-width:42px; margin-left: 8;"/>';//
+					echo '<img src="images/'.$c['stats']['avatar'].'"style="float:left; max-width:42px; margin-left: 8;"/>';//
 					
 					echo '<div id="innertext" style=" width:286px;  height:65; float:left; margin-left: 7; margin-top:0; margin-bottom:10">';
 					
@@ -76,7 +76,7 @@
 					
 						$result = array_reverse($c['feed']); 
 						
-						echo "<img src='/images/comment.png'/><p4 style='margin-bottom:7px;'>".$result[0]['words']."</p4>";
+						echo "<img src='images/comment.png'/><p4 style='margin-bottom:7px;'>".$result[0]['words']."</p4>";
 										
 					}
 					

@@ -29,7 +29,7 @@
 	$counter = 1;
 	
 
-	echo '<div style="width:351px; height:80px;"> <hr style="border:3px solid #df1c53;" /><img src="/images/announcement.png" style="float:left; margin-left: 8;" /> <div id="innertext" style="width:299px; height:75; float:left; margin-left: 7; margin-top:-5;"><p2>Announcement</p2> </br> <p style="margin-top:2px; " > This version of the Tidepools Community Internet Project in Red Hook, Brooklyn is hosted on the Internet, while the actual map is hosted locally, in the community. More info:<b> http://tidepools.co</b></p></div> <hr></div>';
+	echo '<div style="width:351px; height:80px;"> <hr style="border:3px solid #df1c53;" /><img src="images/announcement.png" style="float:left; margin-left: 8;" /> <div id="innertext" style="width:299px; height:75; float:left; margin-left: 7; margin-top:-5;"><p2>Announcement</p2> </br> <p style="margin-top:2px; " > This version of the Tidepools Community Internet Project in Red Hook, Brooklyn is hosted on the Internet, while the actual map is hosted locally, in the community. More info:<b> http://tidepools.co</b></p></div> <hr></div>';
 		
 
 	foreach($landmarks as $i){
@@ -73,7 +73,7 @@
 					
 							$num = rand(1, 3);
 							
-							echo '<img src="/images/people/person'.$num.'.png" style="float:left; max-width:42px; margin-left: 8; margin-right:11;"/>';//
+							echo '<img src="images/people/person'.$num.'.png" style="float:left; max-width:42px; margin-left: 8; margin-right:11;"/>';//
 							
 							echo '<div id="innertext" style=" width:348px;  height:39;  margin-left: 12; margin-top:1; margin-bottom:8">';
 							
